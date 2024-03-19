@@ -19,4 +19,28 @@ Carrito de Reservas: Capacidad para que los usuarios agreguen habitaciones a un 
 Panel de Control de Administrador: Herramienta para que los propietarios de hoteles gestionen sus habitaciones y reservas.
 Borrado Lógico: Implementación de una función de eliminación que conserva los datos en lugar de eliminarlos permanentemente.
 
+
+
+
+
+INSTALACIONES: .env
+VITE_FIREBASE_API_KEY=AIzaSyCIt0lPc8wdrVvgL_t6ASu8TLJGRw84XVs
+VITE_FIREBASE_AUTH_DOMAIN=rentify-852d9.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=rentify-852d9
+VITE_FIREBASE_STORAGE_BUCKET=rentify-852d9.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=412905531159
+VITE_FIREBASE_APP_ID=1:412905531159:web:8feb5f2cf1200a33843952
+VITE_FIREBASE_MEASUREMENT_ID=G-TCPD24G3WQ
+
+Dependencias:
+En Frontend:
+npm i --legacy-peer-deps
+npm install leaflet @types/leaflet @react-leaflet/core react-leaflet --legacy-peer-deps
+npm install mercadopago  @mercadopago/sdk-react  --legacy-peer-deps
+
+En Backend: 
+npm install
+node-fetch@2
+
+
 --
